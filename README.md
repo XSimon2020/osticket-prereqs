@@ -191,9 +191,11 @@ Click "Continue" on the osTicket Installer tab. Fill out the information for "Sy
 <p>
 14) Install HeidiSQL.
 <img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/6ff8619e-61bb-41a9-9c92-fa3dd3165c5e">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/486bc241-6915-4df9-be75-7a6bf4279356">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d6bdd95a-acfd-4f19-8688-4deee8081a47">
 </p>
 <p>
-Copy the link URL for HeidiSQL and paste it on Microsoft Edge within the VM to download and install it afterwards. 
+Copy the link URL for HeidiSQL and paste it on Microsoft Edge within the VM to download and install it afterwards. Click "Skip" for next pop-up after installation. Click "New" and enter the password used earlier to set up
 </p>
 <br />
 
