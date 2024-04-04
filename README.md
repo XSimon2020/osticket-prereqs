@@ -21,7 +21,7 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 
 - Microsoft Azure VM
 
-- For Mac: Microsoft Remote Desktop
+- (For Mac) Microsoft Remote Desktop
 
 - IIS Enabled
 
