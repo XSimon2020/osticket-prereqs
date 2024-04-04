@@ -29,7 +29,7 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 
 - MySQL: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=share_link
 
-- HeidiSQL: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit
+- HeidiSQL:https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit
 
 - Helpdesk Login (Within VM): http://localhost/osTicket/scp/login.php
 
