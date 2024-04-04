@@ -49,15 +49,17 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 1) Create a VM on Microsoft Azure
 <img width="820" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d10bf45d-4a48-4940-b048-4425162aeda6">
 </p>
-Within portal.azure.com, create a new VM by setting up a new resource group, username and password, checking the checkbox for multi-tenant hosting licensing, clicking "Review + Create", and to click "Create" after validation is passed. 
+Within portal.azure.com, create a new VM by setting up a new resource group, username and password for admin configuration, selecting Windows 10 for an image and an option of 2 vcpus for a size, checking the checkbox for multi-tenant hosting licensing, clicking "Review + create", and to click "Create" after validation is passed.  
 <p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+2) Access VM via remote desktop
+<img width="1800" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/f9f311ce-eb00-4352-a39a-1e3889057de9">
+<img width="602" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/a4c4b7dc-3705-4fec-ba02-05e9816ea1e1">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After the created vm is deployed, copy its public ip address and use it for Microsoft Remote Desktop and select to add a new pc. Access the vm by using the same username/password credentials used for setting up it up prior to deployment. 
 </p>
 <br />
 
