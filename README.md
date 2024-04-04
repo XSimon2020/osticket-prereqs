@@ -131,7 +131,7 @@ Copy the link URL for MySQL and paste it on Microsoft Edge within the VM to down
 <img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/832ce282-0322-41c3-b9c8-ce79b9efca1d">
 </p>
 <p>
-Search for IIS and ensure to run as an admin. Select PHP Manager when toggling the home menu and click "Register new PHP version". Browse C:\PHP and click on "php-cgi"
+Search for IIS and ensure to run as an admin. Select PHP Manager when toggling the home menu and click "Register new PHP version". Browse C:\PHP and click on "php-cgi" to open it and run the new PHP version.
 </p>
 <br />
 
