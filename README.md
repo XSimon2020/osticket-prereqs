@@ -37,6 +37,8 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 
 - MySQL: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=share_link
 
+- osTicket: https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=share_link
+
 - HeidiSQL: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit
 
 - Helpdesk Login (Within VM): http://localhost/osTicket/scp/login.php
@@ -131,9 +133,11 @@ Copy the link URL for MySQL and paste it on Microsoft Edge within the VM to down
 <img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/832ce282-0322-41c3-b9c8-ce79b9efca1d">
 </p>
 <p>
-Search for IIS and ensure to run as an admin. Select PHP Manager when toggling the home menu and click "Register new PHP version". Browse C:\PHP and click on "php-cgi" to open it and run the new PHP version.
+Search for IIS and ensure to run as an admin. Select PHP Manager when toggling the home menu and click "Register new PHP version". Browse C:\PHP and click on "php-cgi" to open it and run the new PHP version. Be sure to restart, stop, and start IIS in that order underneath "Manage Server" on the home menu.
 </p>
 <br />
+
+
 
 
 
