@@ -20,6 +20,7 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 <h2>List of Prerequisites</h2>
 
 - https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+- https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link
 
 <h2>Installation Steps</h2>
 
