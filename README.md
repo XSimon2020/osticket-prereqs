@@ -71,7 +71,8 @@ After the created vm is deployed, copy its public IP address and use it for Micr
 <img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d4a5b553-ac66-4c37-bb1d-c90b49940aa8">
 </p>
 <p>
-From now within the vm, go to Control Panel with the necessary directories. Ensure all checkboxes are checked within the Internet Information Services/World Wide Web Services/Common HTTP Features settings. Check the CGI checkbox within the Internet Information Services/World Wide Web Services/Application Development features settings.
+From now within the vm, go to Control Panel with the necessary directories. Ensure all checkboxes are checked within the Internet Information Services->World Wide Web Services->Common HTTP Features settings. Check the CGI checkbox within the Internet Information Services->World Wide Web 
+Services->Application Development Features settings.
 
  Validate IIS was successfuly configured by performing a loopback with the 127.0.0.1 IP address in the search bar of Microsoft Edge.
 </p>
@@ -136,6 +137,62 @@ Copy the link URL for MySQL and paste it on Microsoft Edge within the VM to down
 Search for IIS and ensure to run as an admin. Select PHP Manager when toggling the home menu and click "Register new PHP version". Browse C:\PHP and click on "php-cgi" to open it and run the new PHP version. Be sure to restart, stop, and start IIS in that order underneath "Manage Server" on the home menu.
 </p>
 <br />
+
+<p>
+10) Install osTicket
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/6c92ffd5-eb72-4c6f-8848-7aa2c14dac2a">
+</p>
+<p>
+Copy the link URL for osTicket and paste it on Microsoft Edge within the VM to download and install it afterwards. Drag the "upload" folder from the osTicket zip file to Windows(C:)\inetpub\wwwroot and rename it as "osTicket".
+</p>
+<br />
+
+<p>
+11) Enable disabled features from the PHP Manager.
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/172864b9-71f7-48e5-a8cb-8976475c9073">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/83376ea7-2d58-413f-ae37-4c8f66e84983">
+</p>
+<p>
+Click "Browse *:80 (http)" directly below Browse Folder on Sites->Default Web Site->osTicket below "Connections" on the home menu of IIS to be directed to osTicket Installer. While keeping the installer open, click on PHP Manager back on the home menu of IIS then click on "Enable or disable an extension" below "PHP Extensions" to be directed to that folder. Enable "php_imap.dll", "php_intl.dll", and "php_opcache" and refresh the tab for osTicket Installer to ensure the changes are configured.
+
+</p>
+<br />
+
+<p>
+12) Rename configuration file and assign permissions.
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/0420f825-db06-4586-a2b5-2a24791cd59a">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/3a44a3df-571b-4055-b81d-e9e988260b20">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/7e761a38-d670-4ae4-9126-53108bdaa5ac">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d907e7e1-8c70-4393-b1d4-f27abab034de">
+
+
+</p>
+<p>
+On Windows(C:)\intetpub\wwwroot\osTicket\include, rename "ost-sampleconfig.php" to "ost.conifg.php"
+
+Two-finger tap on "ost.config.php" to click on "Properities"-> "Security"->"Advanced"->"Disable inheritance". On the pop-up, click "Remove all inherited permissions from this object" then click "Apply"->"OK".
+
+On "Security", click "Add..." and type "Everyone" for the object name and click "Check Names" to validate and then click "OK". Grant all permissions for "Everyone" then click 
+"Apply"->"Ok".
+</p>
+<br />
+
+
+<p>
+13) Install osTicket
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/149503df-25d8-4f70-a07e-f669d51f2c2e">
+</p>
+<p>
+Click "Continue" on the osTicket Installer tab
+</p>
+<br />
+
+
+
+
+    
+
+
 
 
 
