@@ -80,18 +80,65 @@ From now within the vm, go to Control Panel with the necessary directories. Ensu
 <img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/47bfb5fc-0c86-486c-a760-44a65810ccfd">
 </p>
 <p>
-Copy the URL link for the PHP Manager and paste it on Microsoft Edge within the VM to install it.
+Copy the link URL for the PHP Manager and paste it on Microsoft Edge within the VM to download and install it afterwards.
 </p>
 <br />
 
 <p>
-5) Enable IIS with the necessary configuration settings.
-<img width="1201" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/3e00da3d-2eda-4eb9-b304-115e1d1cfed6">
-<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d4a5b553-ac66-4c37-bb1d-c90b49940aa8">
+5) Install Rewrite Module.
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/da4e2b23-6bfe-4964-891e-52baf68824ee">
 </p>
 <p>
-From now within the vm, go to Control Panel with the necessary directories. Ensure all checkboxes are checked within the Internet Information Services/World Wide Web Services/Common HTTP Features settings. Check the CGI checkbox within the Internet Information Services/World Wide Web Services/Application Development features settings.
-
- Validate IIS was successfuly configured by performing a loopback with the 127.0.0.1 IP address in the search bar of Microsoft Edge.
+Copy the link URL for the Rewrite Module and paste it on Microsoft Edge within the VM to download and install it afterwards.
 </p>
 <br />
+
+<p>
+6) Install PHP 7.3.8 and unzip its contents into C:\PHP.
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/3af68dd1-248f-40a5-8be2-fbdc65e4c58d">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/520def2e-e9bb-4f27-8b3d-427e7ffbfff9">
+</p>
+<p>
+Copy the link URL for PHP 7.3.8 and paste it on Microsoft Edge within the VM to download the zip file. Create a new folder called "PHP". In the "Downloads" file, two-finger tap the PHP 7.3.8 zip file, select "Extract all", and browse for the created "PHP" folder to extract within that folder.
+</p>
+<br />
+
+<p>
+7) Install Visual C++ Redistributable.
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/f3092b5d-5f9a-428e-8a23-cc4ff0119cfc">
+</p>
+<p>
+Copy the link URL for Visual C++ Redistributable and paste it on Microsoft Edge within the VM to download and install it afterwards.
+</p>
+<br />
+
+<p>
+8) Install MySQL.
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/301234e5-cc9b-4a18-b2c4-f34494d75e26">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/4d5ac152-2e84-473b-a352-1da16f97f187">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/9bbff653-9318-454b-a01c-8fb8c67bb8ad">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/f2c38a63-ad9a-4be1-912a-7ae51f5db8f0">
+</p>
+<p>
+Copy the link URL for MySQL and paste it on Microsoft Edge within the VM to download and install it afterwards. After the setup wizard is installed, select a standard configuration, type out a password for the root username, and click "Execute" when accessing the configuration wizard to finish setting up MySQL.
+</p>
+<br />
+
+<p>
+9) Open IIS to register new PHP version for the PHP Manager.
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/283649e8-2d36-4387-b740-5ba6b5e2fc18">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/42925388-5ebc-433a-991e-4417cfa05d27">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/832ce282-0322-41c3-b9c8-ce79b9efca1d">
+</p>
+<p>
+Search for IIS and ensure to run as an admin. Select PHP Manager when toggling the home menu and click "Register new PHP version". Browse C:\PHP and click on "php-cgi"
+</p>
+<br />
+
+
+
+
+
+
+
+
