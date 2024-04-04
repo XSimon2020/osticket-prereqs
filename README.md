@@ -46,7 +46,7 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 <h2>Installation Steps</h2>
 
 <p>
-1) Create a VM on Microsoft Azure
+1) Create a vm on Microsoft Azure.
 <img width="820" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d10bf45d-4a48-4940-b048-4425162aeda6">
 </p>
 Within portal.azure.com, create a new VM by setting up a new resource group, username and password for admin configuration, selecting Windows 10 for an image and an option of 2 vcpus for a size, checking the checkbox for multi-tenant hosting licensing, clicking "Review + create", and to click "Create" after validation is passed.  
@@ -54,19 +54,44 @@ Within portal.azure.com, create a new VM by setting up a new resource group, use
 <br />
 
 <p>
-2) Access VM via remote desktop
+2) Access VM via remote desktop.
 <img width="1800" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/f9f311ce-eb00-4352-a39a-1e3889057de9">
 <img width="602" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/a4c4b7dc-3705-4fec-ba02-05e9816ea1e1">
 </p>
 <p>
-After the created vm is deployed, copy its public ip address and use it for Microsoft Remote Desktop and select to add a new pc. Access the vm by using the same username/password credentials used for setting up it up prior to deployment. 
+After the created vm is deployed, copy its public IP address and use it for Microsoft Remote Desktop and select to add a new pc. Access the vm by using the same username/password credentials used for setting up it up prior to deployment. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+3) Enable IIS with the necessary configuration settings.
+<img width="1201" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/3e00da3d-2eda-4eb9-b304-115e1d1cfed6">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d4a5b553-ac66-4c37-bb1d-c90b49940aa8">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From now within the vm, go to Control Panel with the necessary directories. Ensure all checkboxes are checked within the Internet Information Services/World Wide Web Services/Common HTTP Features settings. Check the CGI checkbox within the Internet Information Services/World Wide Web Services/Application Development features settings.
+
+ Validate IIS was successfuly configured by performing a loopback with the 127.0.0.1 IP address in the search bar of Microsoft Edge.
+</p>
+<br />
+
+<p>
+4) Install PHP Manager. 
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/47bfb5fc-0c86-486c-a760-44a65810ccfd">
+</p>
+<p>
+Copy the URL link for the PHP Manager and paste it on Microsoft Edge within the VM to install it.
+</p>
+<br />
+
+<p>
+5) Enable IIS with the necessary configuration settings.
+<img width="1201" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/3e00da3d-2eda-4eb9-b304-115e1d1cfed6">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d4a5b553-ac66-4c37-bb1d-c90b49940aa8">
+</p>
+<p>
+From now within the vm, go to Control Panel with the necessary directories. Ensure all checkboxes are checked within the Internet Information Services/World Wide Web Services/Common HTTP Features settings. Check the CGI checkbox within the Internet Information Services/World Wide Web Services/Application Development features settings.
+
+ Validate IIS was successfuly configured by performing a loopback with the 127.0.0.1 IP address in the search bar of Microsoft Edge.
 </p>
 <br />
