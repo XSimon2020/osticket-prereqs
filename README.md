@@ -179,13 +179,25 @@ On "Security", click "Add..." and type "Everyone" for the object name and click 
 
 
 <p>
-13) Install osTicket
+13) Fill out information to continue with osTicket installation.
 <img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/149503df-25d8-4f70-a07e-f669d51f2c2e">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/960b2534-3d80-4f0b-b146-c03c683992a3">
 </p>
 <p>
-Click "Continue" on the osTicket Installer tab
+Click "Continue" on the osTicket Installer tab. Fill out the information for "System Settings" and "Admin User". Use screenshot as possible reference for what to fill out. Leave "Database Settings" blank for now. 
 </p>
 <br />
+
+<p>
+14) Install HeidiSQL.
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/6ff8619e-61bb-41a9-9c92-fa3dd3165c5e">
+</p>
+<p>
+Copy the link URL for HeidiSQL and paste it on Microsoft Edge within the VM to download and install it afterwards. 
+</p>
+<br />
+
+
 
 
 
