@@ -49,7 +49,8 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 <img width="820" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d10bf45d-4a48-4940-b048-4425162aeda6">
 </p>
 <p>
-
+1) Create a VM on Microsoft Azure
+  Within this
 <br />
 
 <p>
