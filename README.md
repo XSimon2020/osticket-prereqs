@@ -123,7 +123,7 @@ Copy the link URL for Visual C++ Redistributable and paste it on Microsoft Edge 
 <img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/f2c38a63-ad9a-4be1-912a-7ae51f5db8f0">
 </p>
 <p>
-Copy the link URL for MySQL and paste it on Microsoft Edge within the VM to download and install it afterwards. After the setup wizard is installed, select a standard configuration, type out a password for the root username, and click "Execute" when accessing the configuration wizard to finish setting up MySQL.
+Copy the link URL for MySQL and paste it on Microsoft Edge within the VM to download and install it afterwards. After the setup wizard is installed, select a standard configuration, type out a password for the "root" username, and click "Execute" when accessing the configuration wizard to finish setting up MySQL.
 </p>
 <br />
 
@@ -184,7 +184,7 @@ On "Security", click "Add..." and type "Everyone" for the object name and click 
 <img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/960b2534-3d80-4f0b-b146-c03c683992a3">
 </p>
 <p>
-Click "Continue" on the osTicket Installer tab. Fill out the information for "System Settings" and "Admin User". Use screenshot as possible reference for what to fill out. Leave "Database Settings" blank for now. 
+Click "Continue" on the "osTicket Installer" tab. Fill out the information for "System Settings" and "Admin User". Use screenshot as possible reference for what to fill out. Leave "Database Settings" blank for now. 
 </p>
 <br />
 
@@ -195,9 +195,34 @@ Click "Continue" on the osTicket Installer tab. Fill out the information for "Sy
 <img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d6bdd95a-acfd-4f19-8688-4deee8081a47">
 </p>
 <p>
-Copy the link URL for HeidiSQL and paste it on Microsoft Edge within the VM to download and install it afterwards. Click "Skip" for next pop-up after installation. Click "New" and enter the password used earlier to set up
+Copy the link URL for HeidiSQL and paste it on Microsoft Edge within the VM to download and install it afterwards. Click "Skip" for next pop-up after installation. Click "New" and enter the password used earlier to set up the "root" username when configuring MySQL then click "Open".
 </p>
 <br />
+
+<p>
+13) Fill out the remaining information to finalize osTicket installation.
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/97d6dc44-4e06-48e4-bd50-715f3f75c1f3">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/299d442b-b63a-4d96-9c0e-c47e9f23e83e">
+</p>
+<p>
+Back on the "osTicket Installer" tab, fill out the remaining information under "Database Settings" by typing the hostname and the same password for the "root" then click "Install Now". Ensure redirection to the right screen as shown in the snapshot.
+</p>
+<br />
+
+<p>
+14) Perform various clean-up tasks.
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/955c6293-b09b-4312-be05-0f13becc7bfb">
+<img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/c7c30abc-4a51-485d-a8fc-622e0df966be">
+</p>
+<p>
+Delete: Windows(C:)\intetpub\wwwroot\osTicket\setup and set permissions for "Everyone" to "Read" only.
+</p>
+<br />
+
+<b>This marks the end of the tutorial.<b>
+
+
+
 
 
 
