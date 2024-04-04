@@ -15,7 +15,7 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 
 <h2>Operating Systems Used </h2>
 
--macOS
+-macOS</b>
 
 - Windows 10 VM</b> (21H2)
 
