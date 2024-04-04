@@ -31,6 +31,8 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 
 - https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit
 
+- http://localhost/osTicket/scp/login.php
+
 <h2>Installation Steps</h2>
 
 <p>
