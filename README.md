@@ -33,6 +33,8 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 
 - http://localhost/osTicket/scp/login.php
 
+- http://localhost/osTicket/
+
 <h2>Installation Steps</h2>
 
 <p>
