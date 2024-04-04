@@ -15,13 +15,15 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+-macOS
+
+- Windows 10 VM</b> (21H2)
 
 <h2>List of Prerequisites</h2>
 
 - Microsoft Azure VM
 
-- (For macOS) Microsoft Remote Desktop
+- Microsoft Remote Desktop
 
 - IIS Enabled
 
