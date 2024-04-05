@@ -41,9 +41,6 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 
 - HeidiSQL: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit
 
-- Helpdesk Login (Within VM): http://localhost/osTicket/scp/login.php
-
-- End user Login (Within VM): http://localhost/osTicket/
 
 <h2>Installation Steps</h2>
 
