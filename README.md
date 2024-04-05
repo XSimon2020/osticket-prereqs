@@ -50,7 +50,7 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 </p>
 Within portal.azure.com, create a new VM by setting up a new resource group, username and password for admin configuration, selecting Windows 10 for an image and an option of 2 vcpus for a size, checking the checkbox for multi-tenant hosting licensing, clicking "Review + create", and to click "Create" after validation is passed.  
 <p>
-<br />
+<br/>
 
 <p>
 2) Access VM via remote desktop.
@@ -60,7 +60,7 @@ Within portal.azure.com, create a new VM by setting up a new resource group, use
 <p>
 After the created vm is deployed, copy its public IP address and use it for Microsoft Remote Desktop and select to add a new pc. Access the vm by using the same username/password credentials used for setting up it up prior to deployment. 
 </p>
-<br />
+<br/>
 
 <p>
 3) Enable IIS with the necessary configuration settings.
@@ -73,7 +73,7 @@ Services->Application Development Features settings.
 
  Validate IIS was successfuly configured by performing a loopback with the 127.0.0.1 IP address in the search bar of Microsoft Edge.
 </p>
-<br />
+<br/>
 
 <p>
 4) Install PHP Manager. 
@@ -82,7 +82,7 @@ Services->Application Development Features settings.
 <p>
 Copy the link URL for the PHP Manager and paste it on Microsoft Edge within the VM to download and install it afterwards.
 </p>
-<br />
+<br/>
 
 <p>
 5) Install Rewrite Module.
@@ -91,7 +91,7 @@ Copy the link URL for the PHP Manager and paste it on Microsoft Edge within the 
 <p>
 Copy the link URL for the Rewrite Module and paste it on Microsoft Edge within the VM to download and install it afterwards.
 </p>
-<br />
+<br/>
 
 <p>
 6) Install PHP 7.3.8 and unzip its contents into C:\PHP.
@@ -101,7 +101,7 @@ Copy the link URL for the Rewrite Module and paste it on Microsoft Edge within t
 <p>
 Copy the link URL for PHP 7.3.8 and paste it on Microsoft Edge within the VM to download the zip file. Create a new folder called "PHP". In the "Downloads" file, two-finger tap the PHP 7.3.8 zip file, select "Extract all", and browse for the created "PHP" folder to extract within that folder.
 </p>
-<br />
+<br/>
 
 <p>
 7) Install Visual C++ Redistributable.
@@ -110,7 +110,7 @@ Copy the link URL for PHP 7.3.8 and paste it on Microsoft Edge within the VM to 
 <p>
 Copy the link URL for Visual C++ Redistributable and paste it on Microsoft Edge within the VM to download and install it afterwards.
 </p>
-<br />
+<br/>
 
 <p>
 8) Install MySQL.
@@ -122,7 +122,7 @@ Copy the link URL for Visual C++ Redistributable and paste it on Microsoft Edge 
 <p>
 Copy the link URL for MySQL and paste it on Microsoft Edge within the VM to download and install it afterwards. After the setup wizard is installed, select a standard configuration, type out a password for the "root" username, and click "Execute" when accessing the configuration wizard to finish setting up MySQL.
 </p>
-<br />
+<br/>
 
 <p>
 9) Open IIS to register new PHP version for the PHP Manager.
@@ -133,7 +133,7 @@ Copy the link URL for MySQL and paste it on Microsoft Edge within the VM to down
 <p>
 Search for IIS and ensure to run as an admin. Select PHP Manager when toggling the home menu and click "Register new PHP version". Browse C:\PHP and click on "php-cgi" to open it and run the new PHP version. Be sure to restart, stop, and start IIS in that order underneath "Manage Server" on the home menu.
 </p>
-<br />
+<br/>
 
 <p>
 10) Install osTicket
@@ -142,7 +142,7 @@ Search for IIS and ensure to run as an admin. Select PHP Manager when toggling t
 <p>
 Copy the link URL for osTicket and paste it on Microsoft Edge within the VM to download and install it afterwards. Drag the "upload" folder from the osTicket zip file to Windows(C:)\inetpub\wwwroot and rename it as "osTicket".
 </p>
-<br />
+<br/>
 
 <p>
 11) Enable disabled features from the PHP Manager.
@@ -153,7 +153,7 @@ Copy the link URL for osTicket and paste it on Microsoft Edge within the VM to d
 Click "Browse *:80 (http)" directly below Browse Folder on Sites->Default Web Site->osTicket below "Connections" on the home menu of IIS to be directed to osTicket Installer. While keeping the installer open, click on PHP Manager back on the home menu of IIS then click on "Enable or disable an extension" below "PHP Extensions" to be directed to that folder. Enable "php_imap.dll", "php_intl.dll", and "php_opcache" and refresh the tab for osTicket Installer to ensure the changes are configured.
 
 </p>
-<br />
+<br/>
 
 <p>
 12) Rename configuration file and assign permissions.
@@ -172,7 +172,7 @@ Two-finger tap on "ost.config.php" to click on "Properities"-> "Security"->"Adva
 On "Security", click "Add..." and type "Everyone" for the object name and click "Check Names" to validate and then click "OK". Grant all permissions for "Everyone" then click 
 "Apply"->"Ok".
 </p>
-<br />
+<br/>
 
 
 <p>
@@ -183,7 +183,7 @@ On "Security", click "Add..." and type "Everyone" for the object name and click 
 <p>
 Click "Continue" on the "osTicket Installer" tab. Fill out the information for "System Settings" and "Admin User". Use screenshot as possible reference for what to fill out. Leave "Database Settings" blank for now. 
 </p>
-<br />
+<br/>
 
 <p>
 14) Install HeidiSQL.
@@ -194,7 +194,7 @@ Click "Continue" on the "osTicket Installer" tab. Fill out the information for "
 <p>
 Copy the link URL for HeidiSQL and paste it on Microsoft Edge within the VM to download and install it afterwards. Click "Skip" for next pop-up after installation. Click "New" and enter the password used earlier to set up the "root" username when configuring MySQL then click "Open".
 </p>
-<br />
+<br/>
 
 <p>
 13) Fill out the remaining information to finalize osTicket installation.
@@ -204,7 +204,7 @@ Copy the link URL for HeidiSQL and paste it on Microsoft Edge within the VM to d
 <p>
 Back on the "osTicket Installer" tab, fill out the remaining information under "Database Settings" by typing the hostname and the same password for the "root" then click "Install Now". Ensure redirection to the right screen as shown in the snapshot.
 </p>
-<br />
+<br/>
 
 <p>
 14) Perform various clean-up tasks.
@@ -214,7 +214,7 @@ Back on the "osTicket Installer" tab, fill out the remaining information under "
 <p>
 Delete: Windows(C:)\intetpub\wwwroot\osTicket\setup and set permissions for "Everyone" to "Read" only.
 </p>
-<br />
+<br/>
 
 <b>This marks the end of the tutorial.<b>
 
