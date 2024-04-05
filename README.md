@@ -162,7 +162,7 @@ Copy the link URL for HeidiSQL and paste it on Microsoft Edge within the VM to d
 
 <p>
 15) <b>Fill out the remaining information to finalize osTicket installation.</b><br/>
-Back on the "osTicket Installer" tab, fill out the remaining information under "Database Settings" by typing the hostname and the same password for the "root" then click "Install Now". Ensure redirection to the right screen as shown in the snapshot.
+Back on the "osTicket Installer" tab, fill out the remaining information under "Database Settings" by typing the hostname and the same password for the "root" then click "Install Now". Ensure redirection to the right screen as shown in the screenshot.
 <img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/97d6dc44-4e06-48e4-bd50-715f3f75c1f3">
 <img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/299d442b-b63a-4d96-9c0e-c47e9f23e83e">
 </p>
