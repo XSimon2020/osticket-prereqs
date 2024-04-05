@@ -21,7 +21,7 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 
 <h2>List of Prerequisites</h2>
 
-- Microsoft Azure VM
+- Microsoft Azure 
 
 - Microsoft Remote Desktop
 
