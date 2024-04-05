@@ -4,7 +4,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This demonstration outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This demonstration outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br/>
 
 
 <h2>Environments and Technologies Used</h2>
@@ -45,7 +45,7 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 <h2>Steps</h2>
 
 <p>
-1) <b>>Create a vm on Microsoft Azure.</b>
+1) <b>Create a vm on Microsoft Azure.<b>
 <img width="820" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d10bf45d-4a48-4940-b048-4425162aeda6">
 </p>
 <p>
