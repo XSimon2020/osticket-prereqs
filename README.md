@@ -42,7 +42,7 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 - HeidiSQL: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit
 
 
-<h2>Installation Steps</h2>
+<h2>Steps</h2>
 
 <p>
 1) Create a vm on Microsoft Azure.
