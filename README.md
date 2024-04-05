@@ -53,25 +53,23 @@ Within portal.azure.com, create a new VM by setting up a new resource group, use
 <br/>
 
 <p>
-2) Access VM via remote desktop.
+2) <b>Access VM via remote desktop.</b><br/>
+After the created vm is deployed, copy its public IP address and use it for Microsoft Remote Desktop and select to add a new pc. Access the vm by using the same username/password credentials used for setting up it up prior to deployment. 
 <img width="1800" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/f9f311ce-eb00-4352-a39a-1e3889057de9">
 <img width="602" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/a4c4b7dc-3705-4fec-ba02-05e9816ea1e1">
 </p>
 <p>
-After the created vm is deployed, copy its public IP address and use it for Microsoft Remote Desktop and select to add a new pc. Access the vm by using the same username/password credentials used for setting up it up prior to deployment. 
 </p>
 <br/>
 
 <p>
-3) Enable IIS with the necessary configuration settings.
+3) <b>Enable IIS with the necessary configuration settings.</b><br/>
+From now within the vm, go to Control Panel with the necessary directories. Ensure all checkboxes are checked within the Internet Information Services->World Wide Web Services->Common HTTP Features settings. Check the CGI checkbox within the Internet Information Services->World Wide Web 
+Services->Application Development Features settings. Validate IIS was successfuly configured by performing a loopback with the 127.0.0.1 IP address in the search bar of Microsoft Edge.
 <img width="1201" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/3e00da3d-2eda-4eb9-b304-115e1d1cfed6">
 <img width="1156" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d4a5b553-ac66-4c37-bb1d-c90b49940aa8">
 </p>
 <p>
-From now within the vm, go to Control Panel with the necessary directories. Ensure all checkboxes are checked within the Internet Information Services->World Wide Web Services->Common HTTP Features settings. Check the CGI checkbox within the Internet Information Services->World Wide Web 
-Services->Application Development Features settings.
-
- Validate IIS was successfuly configured by performing a loopback with the 127.0.0.1 IP address in the search bar of Microsoft Edge.
 </p>
 <br/>
 
