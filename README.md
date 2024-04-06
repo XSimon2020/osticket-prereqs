@@ -9,21 +9,17 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure Virtual Machine (VM)
-- Remote Desktop
+- Microsoft Azure Virtual Machine 
+- Microsoft Remote Desktop
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
 
 - macOS
 
-- Windows 10 Pro VM</b> (21H2)
+- Windows 10 Pro </b> (21H2)
 
 <h2>List of Prerequisites</h2>
-
-- Microsoft Azure 
-
-- Microsoft Remote Desktop
 
 - IIS Enabled
 
