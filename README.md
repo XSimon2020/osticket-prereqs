@@ -47,6 +47,7 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 <p>
 1) <b>Create a vm on Microsoft Azure.</b><br/>
 Within portal.azure.com, create a new VM by setting up a new resource group, username and password for admin configuration, selecting Windows 10 for an image and an option of 2 vcpus for a size, checking the checkbox for multi-tenant hosting licensing, clicking "Review + create", and to click "Create" after validation is passed.  
+<img width="1800" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/938301eb-4875-4e99-b3fa-92ba11b90a5b">
 <img width="820" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/d10bf45d-4a48-4940-b048-4425162aeda6">
 </p>
 <br/>
