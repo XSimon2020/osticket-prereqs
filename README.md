@@ -176,7 +176,7 @@ Delete: Windows(C:)\intetpub\wwwroot\osTicket\setup and set permissions for "Eve
 </p>
 <br/>
 
-<b>This marks the end of the tutorial.<b>
+<b>This marks the end of the demonstration.<b>
 
 
 
