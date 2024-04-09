@@ -47,7 +47,7 @@ Within portal.azure.com, create a new VM by setting up a new resource group, use
 <br/>
 
 <p>
-2) <b>Access VM via remote desktop.</b><br/>
+2) <b>Access vm via remote desktop.</b><br/>
 After the created vm is deployed, copy its public IP address and use it for Microsoft Remote Desktop and select to add a new pc. Access the vm by using the same username/password credentials used for setting up it up prior to deployment. 
 <img width="1800" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/f9f311ce-eb00-4352-a39a-1e3889057de9">
 <img width="602" alt="image" src="https://github.com/XSimon2020/osticket-prereqs/assets/111246513/a4c4b7dc-3705-4fec-ba02-05e9816ea1e1">
